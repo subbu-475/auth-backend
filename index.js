@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors({origin:"*"}));
 connectDb();
 app.get('/',(req,res)=>{
-    res.send("Yeah we go")
+    res.send("it is ready to bow!")
 })
 
 app.use('/signin',signinRoutes);
